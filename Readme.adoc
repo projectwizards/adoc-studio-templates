@@ -1,0 +1,117 @@
+:doctype: article
+:lang: en
+:app-name: adoc Studio
+
+:repository-url: https://github.com/projectwizards/adoc-studio-templates
+:app-url: https://adoc-studio.app/help/
+:documentation-url: https://adoc-studio.app/help/
+:!showtitle:
+:source-highlighter:  
+:toclevels: 1
+:!toc-title: 
+:toc: macro
+
+= Templates for {app-name}
+
+image::adoc-studio-logo.png[Logo, align=center, width=30%]
+
+[.text-center.lead]
+*{doctitle}* 
+
+[.text-center]
+_A collection of templates for adoc Studio written in AsciiDoc markup._ +
+{app-url}[Explore the website of {app-name} »]
+
+
+== Introduction
+
+Welcome to the {doctitle}! 
+This repository contains a collection of templates for use with adoc Studio on Mac and iPad. 
+All templates are written in AsciiDoc markup to streamline your documentation process.
+
+image::organize-laptop-en.png[Screenshot, align=center, width=100%]
+
+[discrete]
+== Contents
+
+toc::[]
+
+== Features
+
+Variety of Templates:: 
+Contains a range of templates for different documentation requirements.
+There may be a lack of variety in the beginning, but stay tuned... Many will follow over time. 
+
+Compatibility:: 
+Fully compatible with adoc Studio on both Mac and iPad.
+
+AsciiDoc Markup:: 
+Leverages the powerful AsciiDoc syntax for clear and structured documentation.
+
+== Purpose
+
+This repository contains a collection of the latest templates for {app-name}.
+
+AsciiDoc is an extreme powerful markup language designed for more complex content. 
+It uses a more extensive syntax than Markdown, allowing you to create more advanced formatting elements such as tables, footnotes, and cross-references. 
+All without the headaches of inconsistent implementations frequently found with Markdown. 
+For writing high-quality documentation, it just works.
+
+Furthermore AsciiDoc is simply plain-text.
+You can author documents in {app-url}[{app-name}] or any other text editor of choice, such as Visual Studio Code with a proper extension, or any derivative of VIM.
+
+
+If you're just getting started with AsciiDoc, you may watch the video below, or any other one on https://www.youtube.com/@adocStudio/videos[YouTube].
+
+[.text-center]
+video::g7ZJBNDMgZs[youtube,width=650, height=400, ]
+
+
+=== Built With
+
+{app-url}[{app-name}]::
+Create technical documents in no time at all.
+Use the full range of AsciiDoc – wherever you are.
+
+https://asciidoc.org/[AsciiDoc]::
+AsciiDoc is a plain text markup language for writing technical content. 
+It’s packed with semantic elements and equipped with features to modularize and reuse content. 
+AsciiDoc content can be composed using a text editor, managed in a version control system, and published to multiple output formats.
+
+
+== Discussions
+
+* Everyone is welcome to discuss the content of this repository as well as new ideas and further requests.
+* Please use only https://forum.adoc-studio.app/[this forum]. 
+
+== Roadmap
+* See the {repository-url}/issues[open issues] for a list of proposed features (and known issues).
+* For the roadmap of {app-name} see this https://adoc-studio.canny.io/[website].
+
+
+=== Contributing
+. Clone repo and create a new branch: + 
+`$ git checkout {repository-url} -b name_for_new_branch`
+. Make changes and test.
+. Submit Pull Request with comprehensive description of changes.
+
+
+=== Change Log
+See {repository-url}/commits/main/[CHANGELOG].
+
+
+== License
+* {doctitle} are distributed under the MIT License. See `LICENSE` for more information.
+* {app-name} is copyrighted for ProjectWizards GmbH, Melle, Germany.
+
+
+== Contact
+{app-url}about-us[ProjectWizards GmbH] + 
+Lichtenrader Strasse 11 +
+49324 Melle / Germany +
+Email: office@projectwizards.net
+
+
+=== Acknowledgements
+
+* AsciiDoc® and AsciiDoc Language™ are trademarks of the Eclipse Foundation, Inc.
