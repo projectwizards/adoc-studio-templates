@@ -1,7 +1,7 @@
 :doctype: article
 :lang: en
 :app-name: adoc Studio
-
+:imagesdir: Media
 :repository-url: https://github.com/projectwizards/adoc-studio-templates
 :app-url: https://adoc-studio.app/help/
 :documentation-url: https://adoc-studio.app/help/
