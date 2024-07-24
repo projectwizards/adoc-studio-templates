@@ -1,0 +1,9 @@
+
+[colophon]
+== Colophon
+
+{copyright}
+
+Add all thoughts on the publishing aspect here. 
+
+{doctitle} was built with adoc Studio on {os}.

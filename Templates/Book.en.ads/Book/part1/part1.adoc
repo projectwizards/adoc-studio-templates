@@ -1,0 +1,6 @@
+
+
+= The wild years…
+
+[partintro]
+Parts can only be used when the document type is book. The presence of at least one part implies that the document is a multi-part book.

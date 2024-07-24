@@ -1,0 +1,14 @@
+
+[preface]
+== Preface
+
+Writing a book these days inevitably means offering readers an electronic version.
+
+Over the last few years, I've tried most typesetting systems, up to and including AsciiDoc, which I finally settled on to standardise my documents. This is also how adoc Studio came about, but you can read about it https://www.adoc-studio.app/blog/making-of-adoc-studio[here].
+
+As it turns out, I'm not the only one, as many large book publishers use AsciiDoc to create their titles.
+
+This template provides an easy starting point to write a book in adoc Studio. 
+
+{author}, +
+{docdate}

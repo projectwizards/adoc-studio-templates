@@ -1,0 +1,2010 @@
+{
+  "exportProductsMode" : "selected",
+  "oneTimeExportOptions" : {
+    "appearance" : "automatic",
+    "attributes" : {
+
+    },
+    "resourcesMode" : "separateResources",
+    "styleID" : "app.adoc-studio.style.default"
+  },
+  "oneTimeExportOptionsFormat" : "html",
+  "oneTimeExportUsesPreview" : true,
+  "products" : [
+
+  ],
+  "root" : {
+    "children" : [
+      {
+        "children" : [
+          {
+            "children" : [
+              {
+                "id" : "1F537667-8967-4242-B9E1-B811049E2457",
+                "isHiddenInComposite" : false,
+                "name" : "start.adoc",
+                "type" : "asciiDocFile"
+              },
+              {
+                "id" : "F69C4CFC-AB71-4E97-9B74-11979E43511C",
+                "isHiddenInComposite" : false,
+                "name" : "toc.adoc",
+                "type" : "asciiDocFile"
+              },
+              {
+                "children" : [
+                  {
+                    "id" : "7D0414A2-5A6B-4A6E-A67F-376D34BFB559",
+                    "isHiddenInComposite" : false,
+                    "name" : "about.adoc",
+                    "type" : "asciiDocFile"
+                  },
+                  {
+                    "id" : "BF93692E-B284-4D72-A5CA-467D2F5EAE0B",
+                    "isHiddenInComposite" : false,
+                    "name" : "dedication.adoc",
+                    "type" : "asciiDocFile"
+                  },
+                  {
+                    "id" : "0F25988B-8354-4EFA-8024-7A821C41EB7B",
+                    "isHiddenInComposite" : false,
+                    "name" : "foreword.adoc",
+                    "type" : "asciiDocFile"
+                  },
+                  {
+                    "id" : "7EE5841D-F45F-44F9-9EA1-00B9A78F2C3C",
+                    "isHiddenInComposite" : false,
+                    "name" : "introduction.adoc",
+                    "type" : "asciiDocFile"
+                  },
+                  {
+                    "id" : "4CC0162E-7846-4303-B0BA-74BC7F14F345",
+                    "isHiddenInComposite" : false,
+                    "name" : "preface.adoc",
+                    "type" : "asciiDocFile"
+                  },
+                  {
+                    "id" : "BB8DABF7-1703-4ABD-AE45-DEB9CD86CDAC",
+                    "isHiddenInComposite" : false,
+                    "name" : "prologue.adoc",
+                    "type" : "asciiDocFile"
+                  }
+                ],
+                "createIndexFile" : false,
+                "folderSubType" : 0,
+                "id" : "A24F5C82-E996-4A4C-8924-E52122050DB9",
+                "indexFileName" : "index.adoc",
+                "isHiddenInComposite" : false,
+                "name" : "front-matter",
+                "type" : "folder"
+              },
+              {
+                "children" : [
+                  {
+                    "id" : "4E498358-D132-4135-A9E5-DF903E933824",
+                    "isHiddenInComposite" : false,
+                    "name" : "part1.adoc",
+                    "type" : "asciiDocFile"
+                  },
+                  {
+                    "id" : "2FAF993E-A0FA-4F7C-9E7F-8E118B95EFB3",
+                    "isHiddenInComposite" : false,
+                    "name" : "chapter1.adoc",
+                    "type" : "asciiDocFile"
+                  }
+                ],
+                "createIndexFile" : false,
+                "folderSubType" : 0,
+                "id" : "4D064540-C3A6-4108-A6E7-527726E1173B",
+                "indexFileName" : "index.adoc",
+                "isHiddenInComposite" : false,
+                "name" : "part1",
+                "type" : "folder"
+              },
+              {
+                "children" : [
+                  {
+                    "id" : "4964EDBD-4B19-45A7-B697-EA364CA55885",
+                    "isHiddenInComposite" : false,
+                    "name" : "part2.adoc",
+                    "type" : "asciiDocFile"
+                  },
+                  {
+                    "id" : "EF65BD75-DB3D-4558-B600-009F779B9F12",
+                    "isHiddenInComposite" : false,
+                    "name" : "chapter2.adoc",
+                    "type" : "asciiDocFile"
+                  }
+                ],
+                "createIndexFile" : false,
+                "folderSubType" : 0,
+                "id" : "060F5470-CC2F-4791-9077-9FA75E0B018C",
+                "indexFileName" : "index.adoc",
+                "isHiddenInComposite" : false,
+                "name" : "part2",
+                "type" : "folder"
+              },
+              {
+                "children" : [
+                  {
+                    "id" : "4CE444AD-5A2A-4735-9476-F1B8910FEEC5",
+                    "isHiddenInComposite" : false,
+                    "name" : "part3.adoc",
+                    "type" : "asciiDocFile"
+                  },
+                  {
+                    "id" : "A1BE0074-563F-4DCD-9799-16F9409FBB9B",
+                    "isHiddenInComposite" : false,
+                    "name" : "chapter3.adoc",
+                    "type" : "asciiDocFile"
+                  }
+                ],
+                "createIndexFile" : false,
+                "folderSubType" : 0,
+                "id" : "B96B7D26-421C-4E6A-BDBC-47BEB878AE3F",
+                "indexFileName" : "index.adoc",
+                "isHiddenInComposite" : false,
+                "name" : "part3",
+                "type" : "folder"
+              },
+              {
+                "children" : [
+                  {
+                    "id" : "AD60DE5A-151C-4420-8BD4-5F3B7DDE8AA9",
+                    "isHiddenInComposite" : false,
+                    "name" : "epilogue.adoc",
+                    "type" : "asciiDocFile"
+                  },
+                  {
+                    "id" : "2D7CA1C9-CCB3-4DBA-8BA0-F0F57EC54E45",
+                    "isHiddenInComposite" : false,
+                    "name" : "appendix.adoc",
+                    "type" : "asciiDocFile"
+                  },
+                  {
+                    "id" : "7165A29F-A6AB-44E0-AE58-EE49E90EF5CD",
+                    "isHiddenInComposite" : false,
+                    "name" : "glossary.adoc",
+                    "type" : "asciiDocFile"
+                  },
+                  {
+                    "id" : "5DB2116F-FBB5-4435-B696-ABD73B3AAAA5",
+                    "isHiddenInComposite" : false,
+                    "name" : "bibliography.adoc",
+                    "type" : "asciiDocFile"
+                  },
+                  {
+                    "id" : "1BF8C30D-68B9-47C3-AD18-E5C33D3C0FAB",
+                    "isHiddenInComposite" : false,
+                    "name" : "acknowledgments.adoc",
+                    "type" : "asciiDocFile"
+                  },
+                  {
+                    "id" : "2B07A0BB-862E-4407-B8D5-9D0AE9A7FD5B",
+                    "isHiddenInComposite" : false,
+                    "name" : "colophon.adoc",
+                    "type" : "asciiDocFile"
+                  }
+                ],
+                "createIndexFile" : false,
+                "folderSubType" : 0,
+                "id" : "1E4E0B70-6008-4368-8B14-33C3F66046DF",
+                "indexFileName" : "index.adoc",
+                "isHiddenInComposite" : false,
+                "name" : "back-matter",
+                "type" : "folder"
+              },
+              {
+                "children" : [
+                  {
+                    "id" : "58914740-9998-416B-94A2-3C795F2252BE",
+                    "isHiddenInComposite" : false,
+                    "name" : "front-cover.png",
+                    "type" : "mediaFile"
+                  },
+                  {
+                    "id" : "2DEB143A-0670-482C-97C3-AC3E6F21164F",
+                    "isHiddenInComposite" : false,
+                    "name" : "back-cover.png",
+                    "type" : "mediaFile"
+                  },
+                  {
+                    "id" : "921E7179-8EC7-47DC-8D4A-D71E804922A9",
+                    "isHiddenInComposite" : false,
+                    "name" : "49000worte.bhg",
+                    "type" : "mediaFile"
+                  }
+                ],
+                "createIndexFile" : false,
+                "folderSubType" : 1,
+                "id" : "AF831AF7-986F-4B27-A2BF-D3BAFC62106B",
+                "indexFileName" : "index.adoc",
+                "isHiddenInComposite" : false,
+                "name" : "Medien",
+                "type" : "folder"
+              }
+            ],
+            "createIndexFile" : false,
+            "folderSubType" : 2,
+            "id" : "B1D2C0BD-134D-4C2F-938D-46B1EDA16F75",
+            "indexFileName" : "index.adoc",
+            "isHiddenInComposite" : false,
+            "name" : "Book",
+            "type" : "folder"
+          }
+        ],
+        "createIndexFile" : false,
+        "folderSubType" : 0,
+        "id" : "EBA68BBA-DC1A-4C96-AD0C-2AD92AE9F698",
+        "indexFileName" : "index.adoc",
+        "isHiddenInComposite" : false,
+        "location" : [
+          "266EC3F4-C286-5039-A962-4C5F4E596846",
+          "Ym9va3QDAAAAAAQQMAAAANikYfXZCc\/58r2dS0rEi48m4+WDTl\/MJTOmFu\/PUUa9cAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAAGAAAAAQEAAGZibG9tZQAADAAAAAEBAABSZXBvc2l0b3JpZXMLAAAAAQEAAHB3ZG9jdW1lbnRzAAgAAAABAQAAUHJvZHVjdHMLAAAAAQEAAGFkb2Mtc3R1ZGlvABUAAAABAQAAYWRvYyBTdHVkaW8gVGVtcGxhdGVzAAAACwAAAAEBAABCb29rLmVuLmFkcwAgAAAAAQYAABAAAAAgAAAAMAAAAEQAAABYAAAAaAAAAHwAAACcAAAACAAAAAQDAADFOAAAAAAAAAgAAAAEAwAAru8DAAAAAAAIAAAABAMAAD0uFwAAAAAACAAAAAQDAABOKBwAAAAAAAgAAAAEAwAAf5fcAAAAAAAIAAAABAMAAICX3AAAAAAACAAAAAQDAABl1r4AAAAAAAgAAAAEAwAA1i4iAgAAAAAgAAAAAQYAANgAAADoAAAA+AAAAAgBAAAYAQAAKAEAADgBAABIAQAACAAAAAAEAABBxfBwAvJmJBgAAAABAgAAAgAAAAAAAAAPAAAAAAAAAAAAAAAAAAAACAAAAAQDAAAGAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAJCClucAAAAIAAAAAAQAAEHF9QSsAAAAJAAAAAEBAAA0M0QzQzJBQi03QUE3LTQyNUQtODJCRi05QzBCOEZFOUJFNkMYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAAAP7\/\/\/8BAAAAAAAAABAAAAAEEAAAsAAAAAAAAAAFEAAAWAEAAAAAAAAQEAAAkAEAAAAAAABAEAAAgAEAAAAAAAACIAAAXAIAAAAAAAAFIAAAzAEAAAAAAAAQIAAA3AEAAAAAAAARIAAAEAIAAAAAAAASIAAA8AEAAAAAAAATIAAAAAIAAAAAAAAgIAAAPAIAAAAAAAAwIAAAaAIAAAAAAAABwAAAsAEAAAAAAAARwAAAIAAAAAAAAAASwAAAwAEAAAAAAAAQ0AAABAAAAAAAAAA="
+        ],
+        "name" : "Book.en.ads",
+        "pathFromProjectFolder" : "",
+        "type" : "anchorFolder"
+      }
+    ],
+    "createIndexFile" : false,
+    "folderSubType" : 0,
+    "id" : "95B782FF-3C80-47B4-BAF8-D80B217A74F2",
+    "indexFileName" : "index.adoc",
+    "isHiddenInComposite" : false,
+    "name" : "Book.en",
+    "type" : "root"
+  },
+  "windowConfigurationsByUser" : [
+    "0D0472D1-040F-46DD-A1A1-0A551E6195E5",
+    [
+      {
+        "collapsedWarningCategories" : [
+
+        ],
+        "couplesPreviewContent" : true,
+        "editorNode" : null,
+        "expandedNodes" : [
+          "B96B7D26-421C-4E6A-BDBC-47BEB878AE3F",
+          "B1D2C0BD-134D-4C2F-938D-46B1EDA16F75",
+          "A24F5C82-E996-4A4C-8924-E52122050DB9",
+          "95B782FF-3C80-47B4-BAF8-D80B217A74F2",
+          "4D064540-C3A6-4108-A6E7-527726E1173B",
+          "1E4E0B70-6008-4368-8B14-33C3F66046DF",
+          "060F5470-CC2F-4791-9077-9FA75E0B018C"
+        ],
+        "focusArea" : "preview",
+        "geometries" : [
+          {
+            "platform" : "mac",
+            "sizes" : [
+              {
+                "height" : 1440,
+                "width" : 2560
+              }
+            ]
+          },
+          {
+            "editorSplitterPosition" : 0.44039735099337746,
+            "frame" : [
+              [
+                351,
+                70
+              ],
+              [
+                1911,
+                1345
+              ]
+            ],
+            "isSidebarCollapsed" : false,
+            "previewModeDisplayState" : "sourceAndPreview",
+            "selectedSidebarTab" : "project",
+            "sidebarWidth" : 252
+          }
+        ],
+        "navigationHistory" : {
+          "nodes" : [
+            "060F5470-CC2F-4791-9077-9FA75E0B018C",
+            "1E4E0B70-6008-4368-8B14-33C3F66046DF",
+            "B1D2C0BD-134D-4C2F-938D-46B1EDA16F75",
+            "BB8DABF7-1703-4ABD-AE45-DEB9CD86CDAC",
+            "A24F5C82-E996-4A4C-8924-E52122050DB9",
+            "4E498358-D132-4135-A9E5-DF903E933824",
+            "1F537667-8967-4242-B9E1-B811049E2457",
+            "F69C4CFC-AB71-4E97-9B74-11979E43511C",
+            "7D0414A2-5A6B-4A6E-A67F-376D34BFB559",
+            "EF65BD75-DB3D-4558-B600-009F779B9F12",
+            "4964EDBD-4B19-45A7-B697-EA364CA55885",
+            "2FAF993E-A0FA-4F7C-9E7F-8E118B95EFB3",
+            "4CC0162E-7846-4303-B0BA-74BC7F14F345",
+            "0F25988B-8354-4EFA-8024-7A821C41EB7B",
+            "BF93692E-B284-4D72-A5CA-467D2F5EAE0B",
+            "7EE5841D-F45F-44F9-9EA1-00B9A78F2C3C",
+            "4D064540-C3A6-4108-A6E7-527726E1173B",
+            "B96B7D26-421C-4E6A-BDBC-47BEB878AE3F",
+            "AD60DE5A-151C-4420-8BD4-5F3B7DDE8AA9",
+            "4CE444AD-5A2A-4735-9476-F1B8910FEEC5",
+            "A1BE0074-563F-4DCD-9799-16F9409FBB9B",
+            "5DB2116F-FBB5-4435-B696-ABD73B3AAAA5",
+            "7165A29F-A6AB-44E0-AE58-EE49E90EF5CD",
+            "2D7CA1C9-CCB3-4DBA-8BA0-F0F57EC54E45",
+            "2B07A0BB-862E-4407-B8D5-9D0AE9A7FD5B",
+            "1BF8C30D-68B9-47C3-AD18-E5C33D3C0FAB"
+          ]
+        },
+        "nodeConfigurations" : [
+          "4CC0162E-7846-4303-B0BA-74BC7F14F345",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "upstream",
+                "ranges" : [
+                  [
+                    1,
+                    9
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 0
+            }
+          },
+          "4964EDBD-4B19-45A7-B697-EA364CA55885",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "upstream",
+                "ranges" : [
+                  [
+                    1182,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 13.596713362072581
+            }
+          },
+          "7165A29F-A6AB-44E0-AE58-EE49E90EF5CD",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    1,
+                    11
+                  ]
+                ]
+              }
+            ]
+          },
+          "7EE5841D-F45F-44F9-9EA1-00B9A78F2C3C",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    16,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 42.4722850678748
+            }
+          },
+          "5DB2116F-FBB5-4435-B696-ABD73B3AAAA5",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    1,
+                    11
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 42.4722850678748
+            }
+          },
+          "2D7CA1C9-CCB3-4DBA-8BA0-F0F57EC54E45",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    1,
+                    11
+                  ]
+                ]
+              }
+            ]
+          },
+          "AD60DE5A-151C-4420-8BD4-5F3B7DDE8AA9",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    25,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 42.4694917647065
+            }
+          },
+          "2B07A0BB-862E-4407-B8D5-9D0AE9A7FD5B",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    1,
+                    11
+                  ]
+                ]
+              }
+            ]
+          },
+          "BB8DABF7-1703-4ABD-AE45-DEB9CD86CDAC",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    10,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 0
+            }
+          },
+          "7D0414A2-5A6B-4A6E-A67F-376D34BFB559",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    325,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 21.248996351808636
+            }
+          },
+          "F69C4CFC-AB71-4E97-9B74-11979E43511C",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    6,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 894.0504262499111
+            }
+          },
+          "A1BE0074-563F-4DCD-9799-16F9409FBB9B",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0.24019607843137145,
+              "index" : 10
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    1688,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 0
+            }
+          },
+          "BF93692E-B284-4D72-A5CA-467D2F5EAE0B",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "upstream",
+                "ranges" : [
+                  [
+                    76,
+                    0
+                  ]
+                ]
+              }
+            ]
+          },
+          "0F25988B-8354-4EFA-8024-7A821C41EB7B",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 42.47228506776145
+            }
+          },
+          "2FAF993E-A0FA-4F7C-9E7F-8E118B95EFB3",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    1901,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 42.13217399321212
+            }
+          },
+          "4E498358-D132-4135-A9E5-DF903E933824",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    7,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 42.13217399321228
+            }
+          },
+          "4CE444AD-5A2A-4735-9476-F1B8910FEEC5",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "upstream",
+                "ranges" : [
+                  [
+                    32,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 42.13217399321212
+            }
+          },
+          "1F537667-8967-4242-B9E1-B811049E2457",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    231,
+                    12
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 626.8172214996983
+            }
+          },
+          "1BF8C30D-68B9-47C3-AD18-E5C33D3C0FAB",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    24,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 41.804356559216394
+            }
+          },
+          "060F5470-CC2F-4791-9077-9FA75E0B018C",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 43.44716685488457
+            }
+          },
+          "4D064540-C3A6-4108-A6E7-527726E1173B",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 895.0943793556585
+            }
+          },
+          "B1D2C0BD-134D-4C2F-938D-46B1EDA16F75",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 2240.5598595744373
+            }
+          },
+          "EF65BD75-DB3D-4558-B600-009F779B9F12",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0.24019607843137145,
+              "index" : 10
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    1688,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 0
+            }
+          },
+          "1E4E0B70-6008-4368-8B14-33C3F66046DF",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 42.48307668552259
+            }
+          }
+        ],
+        "previewConfiguration" : {
+          "format" : "html",
+          "htmlOptions" : {
+            "appearance" : "automatic",
+            "attributes" : {
+
+            },
+            "resourcesMode" : "separateResources",
+            "styleID" : "app.adoc-studio.style.default"
+          },
+          "htmlTextZoom" : 1,
+          "pdfDisplayMode" : "singlePageContinuous",
+          "pdfOptions" : {
+            "appearance" : "automatic",
+            "attributes" : {
+
+            },
+            "margins" : {
+              "bottom" : 2,
+              "left" : 2,
+              "right" : 2,
+              "top" : 2
+            },
+            "paperSize" : [
+              21,
+              29.7
+            ],
+            "styleID" : "app.adoc-studio.style.default"
+          },
+          "pdfZoom" : {
+            "fit" : {
+
+            }
+          },
+          "products" : [
+
+          ]
+        },
+        "previewNode" : null,
+        "selectedNodes" : [
+
+        ],
+        "syncsExpansionState" : true,
+        "syncsScrolling" : true
+      }
+    ],
+    "3CC27C96-3AB4-45B6-9BD2-3725EA42A1E9",
+    [
+      {
+        "collapsedWarningCategories" : [
+
+        ],
+        "couplesPreviewContent" : true,
+        "editorNode" : "2FAF993E-A0FA-4F7C-9E7F-8E118B95EFB3",
+        "expandedNodes" : [
+          "B96B7D26-421C-4E6A-BDBC-47BEB878AE3F",
+          "B1D2C0BD-134D-4C2F-938D-46B1EDA16F75",
+          "AF831AF7-986F-4B27-A2BF-D3BAFC62106B",
+          "A24F5C82-E996-4A4C-8924-E52122050DB9",
+          "95B782FF-3C80-47B4-BAF8-D80B217A74F2",
+          "4D064540-C3A6-4108-A6E7-527726E1173B",
+          "1E4E0B70-6008-4368-8B14-33C3F66046DF",
+          "060F5470-CC2F-4791-9077-9FA75E0B018C"
+        ],
+        "focusArea" : "editor",
+        "geometries" : [
+          {
+            "platform" : "mac",
+            "sizes" : [
+              {
+                "height" : 1440,
+                "width" : 2560
+              }
+            ]
+          },
+          {
+            "editorSplitterPosition" : 0.5423947132616487,
+            "frame" : [
+              [
+                205,
+                70
+              ],
+              [
+                2173,
+                1345
+              ]
+            ],
+            "isSidebarCollapsed" : false,
+            "previewModeDisplayState" : "sourceAndPreview",
+            "selectedSidebarTab" : "project",
+            "sidebarWidth" : 220.5
+          }
+        ],
+        "navigationHistory" : {
+          "nodes" : [
+            "A24F5C82-E996-4A4C-8924-E52122050DB9",
+            "0F25988B-8354-4EFA-8024-7A821C41EB7B",
+            "7D0414A2-5A6B-4A6E-A67F-376D34BFB559",
+            "BF93692E-B284-4D72-A5CA-467D2F5EAE0B",
+            "BB8DABF7-1703-4ABD-AE45-DEB9CD86CDAC",
+            "4CC0162E-7846-4303-B0BA-74BC7F14F345",
+            "7EE5841D-F45F-44F9-9EA1-00B9A78F2C3C",
+            "1BF8C30D-68B9-47C3-AD18-E5C33D3C0FAB",
+            "5DB2116F-FBB5-4435-B696-ABD73B3AAAA5",
+            "7165A29F-A6AB-44E0-AE58-EE49E90EF5CD",
+            "2D7CA1C9-CCB3-4DBA-8BA0-F0F57EC54E45",
+            "AD60DE5A-151C-4420-8BD4-5F3B7DDE8AA9",
+            "1E4E0B70-6008-4368-8B14-33C3F66046DF",
+            "A1BE0074-563F-4DCD-9799-16F9409FBB9B",
+            "B96B7D26-421C-4E6A-BDBC-47BEB878AE3F",
+            "060F5470-CC2F-4791-9077-9FA75E0B018C",
+            "B1D2C0BD-134D-4C2F-938D-46B1EDA16F75",
+            "4CE444AD-5A2A-4735-9476-F1B8910FEEC5",
+            "4964EDBD-4B19-45A7-B697-EA364CA55885",
+            "4D064540-C3A6-4108-A6E7-527726E1173B",
+            "F69C4CFC-AB71-4E97-9B74-11979E43511C",
+            "2B07A0BB-862E-4407-B8D5-9D0AE9A7FD5B",
+            "1F537667-8967-4242-B9E1-B811049E2457",
+            "4E498358-D132-4135-A9E5-DF903E933824",
+            "EF65BD75-DB3D-4558-B600-009F779B9F12",
+            "2FAF993E-A0FA-4F7C-9E7F-8E118B95EFB3"
+          ]
+        },
+        "nodeConfigurations" : [
+          "4CC0162E-7846-4303-B0BA-74BC7F14F345",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "upstream",
+                "ranges" : [
+                  [
+                    1,
+                    9
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : -9.995908678611752
+            }
+          },
+          "4964EDBD-4B19-45A7-B697-EA364CA55885",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    24,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+                0,
+                2,
+                0,
+                0,
+                0
+              ],
+              "fraction" : 0.9090909090909088,
+              "nextElementPath" : [
+
+              ],
+              "yOffset" : 341.4545454545454
+            }
+          },
+          "7165A29F-A6AB-44E0-AE58-EE49E90EF5CD",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "upstream",
+                "ranges" : [
+                  [
+                    72,
+                    1
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : -9.997246802912121
+            }
+          },
+          "7EE5841D-F45F-44F9-9EA1-00B9A78F2C3C",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    250,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : -9.995908678603131
+            }
+          },
+          "5DB2116F-FBB5-4435-B696-ABD73B3AAAA5",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    170,
+                    0
+                  ]
+                ]
+              }
+            ]
+          },
+          "AD60DE5A-151C-4420-8BD4-5F3B7DDE8AA9",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : -9.997246802912121
+            }
+          },
+          "2D7CA1C9-CCB3-4DBA-8BA0-F0F57EC54E45",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "upstream",
+                "ranges" : [
+                  [
+                    920,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : -9.997246802912121
+            }
+          },
+          "2B07A0BB-862E-4407-B8D5-9D0AE9A7FD5B",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "upstream",
+                "ranges" : [
+                  [
+                    88,
+                    15
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : -9.997741718921102
+            }
+          },
+          "BB8DABF7-1703-4ABD-AE45-DEB9CD86CDAC",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    214,
+                    0
+                  ]
+                ]
+              }
+            ]
+          },
+          "A1BE0074-563F-4DCD-9799-16F9409FBB9B",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    3242,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : -9.99733627099577
+            }
+          },
+          "F69C4CFC-AB71-4E97-9B74-11979E43511C",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    39,
+                    0
+                  ]
+                ]
+              }
+            ]
+          },
+          "BF93692E-B284-4D72-A5CA-467D2F5EAE0B",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "upstream",
+                "ranges" : [
+                  [
+                    76,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : -9.995771310189456
+            }
+          },
+          "0F25988B-8354-4EFA-8024-7A821C41EB7B",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "upstream",
+                "ranges" : [
+                  [
+                    591,
+                    4
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : -9.995629395296517
+            }
+          },
+          "2FAF993E-A0FA-4F7C-9E7F-8E118B95EFB3",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0.19385964912280704,
+              "index" : 3
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    1717,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : -9.997506438972165
+            }
+          },
+          "4E498358-D132-4135-A9E5-DF903E933824",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    22,
+                    0
+                  ]
+                ]
+              }
+            ]
+          },
+          "A24F5C82-E996-4A4C-8924-E52122050DB9",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+                0,
+                1,
+                1,
+                0
+              ],
+              "fraction" : 0.7908045977011494,
+              "nextElementPath" : [
+                0,
+                1,
+                1,
+                1
+              ],
+              "yOffset" : 54
+            }
+          },
+          "4CE444AD-5A2A-4735-9476-F1B8910FEEC5",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : -9.99733627099577
+            }
+          },
+          "B96B7D26-421C-4E6A-BDBC-47BEB878AE3F",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 0
+            }
+          },
+          "1F537667-8967-4242-B9E1-B811049E2457",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    922,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+                1,
+                0,
+                0,
+                0
+              ],
+              "fraction" : -3.4074074074074074,
+              "nextElementPath" : [
+
+              ],
+              "yOffset" : 0
+            }
+          },
+          "060F5470-CC2F-4791-9077-9FA75E0B018C",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 0
+            }
+          },
+          "B1D2C0BD-134D-4C2F-938D-46B1EDA16F75",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+                1,
+                8,
+                1,
+                1,
+                1,
+                1,
+                3,
+                1,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1
+              ],
+              "fraction" : 0.32346723044397463,
+              "nextElementPath" : [
+                1,
+                8,
+                1,
+                1,
+                1,
+                1,
+                3,
+                1,
+                2
+              ],
+              "yOffset" : 0.765625
+            }
+          },
+          "1E4E0B70-6008-4368-8B14-33C3F66046DF",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : 0
+            }
+          },
+          "EF65BD75-DB3D-4558-B600-009F779B9F12",
+          {
+            "collapsedRanges" : {
+              "ranges" : [
+
+              ]
+            },
+            "collapsedSections" : [
+
+            ],
+            "editorScrollPosition" : {
+              "fraction" : 0,
+              "index" : 1
+            },
+            "editorSelections" : [
+              {
+                "affinity" : "downstream",
+                "ranges" : [
+                  [
+                    1564,
+                    13
+                  ]
+                ]
+              }
+            ],
+            "previewScrollPosition" : {
+              "elementPath" : [
+
+              ],
+              "fraction" : 0,
+              "nextElementPath" : [
+
+              ],
+              "xOffset" : 0,
+              "yOffset" : -9.997422816349633
+            }
+          }
+        ],
+        "previewConfiguration" : {
+          "format" : "html",
+          "htmlOptions" : {
+            "appearance" : "automatic",
+            "attributes" : {
+
+            },
+            "resourcesMode" : "separateResources",
+            "styleID" : "app.adoc-studio.style.default"
+          },
+          "htmlTextZoom" : 1,
+          "pdfDisplayMode" : "singlePageContinuous",
+          "pdfOptions" : {
+            "appearance" : "automatic",
+            "attributes" : {
+
+            },
+            "margins" : {
+              "bottom" : 2,
+              "left" : 2,
+              "right" : 2,
+              "top" : 2
+            },
+            "paperSize" : [
+              21,
+              29.7
+            ],
+            "styleID" : "app.adoc-studio.style.default"
+          },
+          "pdfZoom" : {
+            "fit" : {
+
+            }
+          },
+          "products" : [
+
+          ]
+        },
+        "previewNode" : "2FAF993E-A0FA-4F7C-9E7F-8E118B95EFB3",
+        "selectedNodes" : [
+          "2FAF993E-A0FA-4F7C-9E7F-8E118B95EFB3"
+        ],
+        "syncsExpansionState" : true,
+        "syncsScrolling" : true
+      }
+    ]
+  ]
+}

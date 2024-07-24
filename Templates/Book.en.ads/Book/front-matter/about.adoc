@@ -1,0 +1,8 @@
+
+[preface]
+== About the author
+
+Frank Blome, born in 1966, founded ProjectWizards in 2002 - which he is still responsible for today as managing partner. He specializes in the organization of IT & software projects. Prior to this, he gained experience in large corporations such as Bertelsmann AG and Lycos Europe, as well in smaller companies. 
+
+In 2004, his company released the project management software Merlin Project. This has been the standard on the Mac and iPad for many years. In 2020, the company started developing adoc Studio, an integrated writing environment for technical documents - again exclusively for Apple operating systems.
+

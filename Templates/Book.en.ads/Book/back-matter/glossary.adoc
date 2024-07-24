@@ -1,0 +1,9 @@
+
+[glossary]
+== Glossary
+
+Term::
+Definition
+
+Another term::
+With another definition

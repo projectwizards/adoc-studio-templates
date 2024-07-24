@@ -1,0 +1,5 @@
+
+[acknowledgments]
+== Acknowledgments
+
+Acknowledgments are a public thank you for the support and contributions of individuals who were involved in the project. The author has leeway with this section’s placement as well. Acknowledgements can be in the Front Matter, usually here e before the Introduction, or may be placed in the Back Matter. If it feels more natural for you to thank people prior to a special event or after one, and whether said thanks might give something away about your story or content, should determine where you place your Acknowledgements.

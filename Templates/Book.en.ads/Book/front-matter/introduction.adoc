@@ -1,0 +1,7 @@
+
+[preface]
+== Introduction
+
+Normally you do not need a separate introduction. 
+It is usually better to include it in the text - i.e. before the first chapter - or just have an introductory paragraph or section within the first chapter. 
+But if you are writing an introduction, it goes here.

@@ -1,0 +1,46 @@
+:doctype: book
+:lang: en
+:company: ProjectWizards
+:copyright: &copy; {docyear} by {company} Publishing. All rights reserved.
+:os: macOS
+
+// Aktivate source code coloring
+:source-highlighter:
+
+// Display admonitions with an icon 
+:icons: font
+
+// Give all book parts a roman number as prefix
+:partnums:
+
+// Give all chapters an arabic number
+:sectnums:
+
+// Define and position the ToC 
+:toclevels: 1
+:toc: macro
+
+// Define the envelop cover images for front and back
+:front-cover-image: image:front-cover.png[fit=cover]
+:back-cover-image: image:back-cover.png[fit=cover]
+
+// Activate the title page for PDF
+:title-page: 
+
+= The {company} Book Template
+Frank Blome <frank@projectwizards.net>
+
+
+[.nolead]
+{copyright}
+
+
+====
+Please use this template for your book. 
+Feel free to use the files provided and delete any you do not need.
+You should of course replace the sample texts with your own texts. 
+
+Enjoy, {author}
+====
+
+
