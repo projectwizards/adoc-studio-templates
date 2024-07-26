@@ -1,0 +1,245 @@
+// This document looks best with the adoc Studio style manpage.
+// The style manpage can be found in the Github repo aodc-studio-styles
+// The output in adoc Studio is currently only in HTML or PDF. 
+// All Q&A please: https://forum.adoc-studio.app
+
+:app-name: adoc Studio
+:starting-year: 2023
+:author: ProjectWizards GmbH
+
+:lang: en
+:hyphens: auto
+:nofooter: 
+:sandbox-url: https://support.apple.com/en-gb/guide/security/sec15bfe098e/web#:~:text=Sandboxing%20is%20designed%20to%20prevent,when%20the%20app%20is%20installed
+:ads-footnotes:  
+
+// Activate it when the app is in beta
+:!beta:
+// Build number
+:version: 1.0 Build 7198
+
+ifdef::filetype-pdf[]
+// In case the preview|output is PDF don't show any header or titlepage
+:noheader:
+:notitle:
+endif::[]
+
+// some URLs
+:url-website: https://www.adoc-studio.app
+:url-roadmap: https://adoc-studio.canny.io 
+:url-styles: https://www.adoc-studio.app/styles
+:url-forum: https://forum.adoc-studio.app
+:url-asciidoc: https://docs.asciidoctor.org/asciidoc/latest
+:url-testflight: https://testflight.apple.com
+:url-merlin: https://www.projectwizards.net/merlin-project
+:url-pws: https://www.projectwizards.net
+
+// Some attributes for the meta data
+:company: {author}
+:subject: This is the man page for {app-name}.
+:copyright: Man page for {app-name} © {starting-year}-{localyear} by {url-pws}[{author}]
+
+
+= {app-name}
+{author}
+Version {version} as of {docdate}
+
+== Name
+
+*{app-name}* – create technical documents in no time at all.
+Use the full range of <<markup_language_reference, AsciiDoc>> – wherever you are.
+
+== Synopsis
+
+A simple double-click on the *{app-name}* icon starts the app.
+
+
+== Description
+
+{app-name} is a project-based document writing environment for complex documents based on the markup language <<markup_language_reference, AsciiDoc>>, 
+capable of producing HTML, PDF and pain text outputs.
+
+The app starts with a default project or all previously opened project windows.
+
+=== How to get started (quick start)
+
+. Create a new project via the menu menu:File[New>Project].
+. Start typing in the <<editor>> using the <<markup_language_reference, AsciiDoc>> markup language. 
+. See the results from typing right away in the <<preview>>.
+. Export the current document to HTML or PDF using the image:share.svg[width=18] symbol, via the menu menu:File[Export > Selection…] or kbd:[⌘+⌥+E].
+. To combine several exports, use the products via the menu menu:File[Export > Products…] or kbd:[⌃+⌘+E].
+
+== Environment
+
+* {app-name} on Mac (with Intel & Apple Chip) needs at least macOS 13
+* {app-name} on iPhone and iPad needs at least iOS or iPadOS 16
+
+
+== Files
+
+The *Project navigator* contains all files of a project.
+It can be opened via image:folder.svg[width=18] or kbd:[⌘+1].
+The structure can be organized with folders and subfolders.
+The order of all files and folders can be modified manually.
+At the bottom of the _Project navigator_ is a _Filter_ field to temporarily reduce the amount of files by their names. 
+
+Accepted file types:: 
+* {app-name} in general accepts all text files and media files. But only for _.adoc_ files the AsciiDoc syntax colouring is possible. 
+* Files can be add to the project via drag & drop from the Finder into the _Project navigator_ or via the Files app on iOS.
+* The app accept any _.adoc_ and _.asciidoc_ file to open the app and import it into a new or any open project.
+* The project information are stored in a _.adocproject_ file. Even it is structured as a _json_ file we don't recommend to modify it externally.
+
+Access to files:: 
+The application is {sandbox-url}[sandboxed]. Therefore, it needs full access rights for each folder where a project is stored.
+For convenience, you can add higher level folders to the <<file_access, File Access Settings>>. 
+In this case {app-name} has access to all included subfolders.
+
+=== Document types
+
+Standalone document:: 
+A document whose contents are created in a single file.
+The preferred `:doctype:` is _article_.
+See more about https://docs.asciidoctor.org/asciidoc/latest/document/doctype/[document types here].
+
+Composite document:: 
+A document composed of multiple files and subfolders. 
+The preferred `:doctype:` is _article_ (default) or _book_.
+See more about https://docs.asciidoctor.org/asciidoc/latest/document/doctype/[document types here].
+
+Folder::
+A folder where any files and further folders are placed.
+Folders can also placed within composite documents to structure them any further. 
+
+Media Folder::
+A folder for organising media of any kind.
+Projects may have multiple media folders.
+
+Existing files::
+Add any existing file to the project. 
+Preferably only text and media files are placed in the project. 
+All other file types cannot be displayed in the app. 
+
+By default the doctype _article_ is set internally.
+This means, the doctype has to be defined only for _book_ or for compatibility reason; when that document should be processed also outside of {app-name}. 
+
+
+=== Document structure
+
+The second tab in side bar is called the *Structure navigator*. 
+It can be opened via image:list.svg[width=18] or kbd:[⌘+2].
+It contains the structure of the actual edited file.
+If the edited file is part of a _composite document_ the structure of all contained chapters is listed.
+
+=== Global Search
+
+The third tab in side bar is called the *Search navigator*. 
+It can be opened via image:search.svg[width=18] or kbd:[⌘+3]. 
+Here you can search and optionally replace the found strings.
+
+=== Document Issues
+
+The fourth tab in side bar is called the *Issue navigator*. 
+It can be opened via image:errors.svg[width=18] or kbd:[⌘+4].
+It contains the warnings and errors of the actual edited file.
+If the edited file is part of a _composite document_ the issues of all contained chapters are listed.
+
+[#editor]
+== Editor
+
+The second (middle) pane in {app-name} is the editor of {app-name}. It can be hide or shown via image:pencil.svg[width=18] or kbd:[⌘+⇧+E].
+The editor can be customised in fonts, sizes and colors via the tab <<editor_styles, Editor Styles>> in the <<settings>>.
+
+
+
+[#markup_language_reference]
+=== Markup language reference
+
+The contents in {app-name} will be written in the markup language AsciiDoc.
+This is a lightweight and semantic markup language primarily designed for writing technical documentation. 
+The language can be used to produce a variety of presentation-rich output formats, all from content encoded in a concise, human-readable, plain text format. 
+
+To support the author, {app-name} offers a contextual completion menu.
+It will shown automatically if it makes sense and the author pauses the writing.
+But it can also be activated with the kbd:[ESC] key.
+
+Further details and the complete AsciiDoc documentation can be {url-asciidoc}[found here].
+
+
+[#preview]
+== Preview
+
+The right pane in {app-name} is the preview of {app-name}. It can be hide or shown via image:eye.svg[width=18] or kbd:[⌘+⇧+p].
+
+
+
+
+[#settings]
+== Settings
+
+Line numbers:: 
+Show all line numbers or just the number of the current line.
+
+Section folding buttons:: 
+Show a triangle before every section header to collapse its contents.
+
+Show file extensions:: 
+Show all or no file extensions in the project navigator.
+
+Line width:: 
+Define the width of the editor line. 
+The minimum value is 30 characters.
+
+Section indentation:: 
+Define the negative indentation for the markup of the section headers: 
+The _minimum_ value is empty or 0 characters. 
+Then the left border of the editor text is the same as the markup of the section headers.
+The _maximum_ value is 6 characters. 
+Then the left border of the editor text aligns perfectly with all levels of the section headers.
+ 
+Tab width:: 
+Define the width tabulator in the editor. The _minimum_ value is 1 character. 
+The _maximum_ value is 100 characters.
+
+Indent with:: 
+Define the entered characters in the editor when the kbd:[TAB] key is pressed. 
+Possible choices are _Tabs_ or _Spaces_.
+
+[#file_access]
+File access:: 
+Add or remove the folders you want the application to have access to for reading and writing files.
+
+[#editor_styles]
+Editor styles:: 
+Select one of the many styles for the editor area or define personal styles for many given rules. 
+
+[#product_styles]
+Product Styles:: 
+Select one of the many styles for the preview and export of HTML and PDF documents. 
+Add or remove styles from others sources such as the {url-website}[website]. 
+
+include::attributes.adoc[]
+
+// This section is only during the beta phase
+
+ifdef::beta[]
+== Errors
+* This app is still in beta, so it may contain errors and issues. 
+Please report anything suspicious in the {url-forum}[forum].
+* You can get the latest beta version from {url-testflight}[Apple TestFlight]. 
+endif::[]
+
+// End of the section for the beta phase
+
+== Resources
+
+{app-name} Website:: {url-website}
+{app-name} Forum:: {url-forum}
+Roadmap:: {url-roadmap}
+
+== Acknowledgements
+
+Detailed list:: https://adoc-studio.app/app/about/index.html
+
+== Copyright
+
+{copyright}
