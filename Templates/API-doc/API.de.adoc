@@ -1,0 +1,236 @@
+:app-name: MeineApp
+:app-key: ABC1234
+:toc: left
+:toclevels: 3
+:source-highlighter: 
+
+= API-Dokumentation
+
+== Einleitung und Überblick
+
+Willkommen zur API-Dokumentation für {app-name}. Diese Dokumentation bietet eine umfassende Anleitung zur Nutzung der {app-name} API.
+
+== Authentifizierung
+
+Um die {app-name} API nutzen zu können, müssen Sie sich authentifizieren. Verwenden Sie dazu den folgenden API-Schlüssel: {app-key}.
+
+=== Authentifizierungsmethoden
+
+. Header-basierte Authentifizierung
+  Fügen Sie den API-Schlüssel zum Header Ihrer Anfrage hinzu:
+
+  [source,json]
+  ----
+  {
+    "Authorization": "Bearer {API-Schlüssel}"
+  }
+  ----
+
+. URL-Parameter-Authentifizierung
+  Alternativ können Sie den API-Schlüssel als URL-Parameter hinzufügen:
+
+  `https://api.beispiel.com/resource?api_key={API-Schlüssel}`
+
+== Endpunkte und Methoden
+
+=== GET /resource
+
+Abrufen einer Liste von Ressourcen.
+
+==== Anfrage
+
+[source,http]
+----
+GET /resource HTTP/1.1
+Host: api.beispiel.com
+Authorization: Bearer {API-Schlüssel}
+----
+
+==== Antwort
+
+[source,json]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+[
+  {
+    "id": 1,
+    "name": "Ressource 1",
+    "description": "Beschreibung der Ressource 1"
+  },
+  {
+    "id": 2,
+    "name": "Ressource 2",
+    "description": "Beschreibung der Ressource 2"
+  }
+]
+----
+
+=== POST /resource
+
+Erstellen einer neuen Ressource.
+
+==== Anfrage
+
+[source,http]
+----
+POST /resource HTTP/1.1
+Host: api.beispiel.com
+Authorization: Bearer {API-Schlüssel}
+Content-Type: application/json
+
+{
+  "name": "Neue Ressource",
+  "description": "Beschreibung der neuen Ressource"
+}
+----
+
+==== Antwort
+
+[source,json]
+----
+HTTP/1.1 201 Created
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "Neue Ressource",
+  "description": "Beschreibung der neuen Ressource"
+}
+----
+
+=== PUT /resource/{id}
+
+Aktualisieren einer bestehenden Ressource.
+
+==== Anfrage
+
+[source,http]
+----
+PUT /resource/{id} HTTP/1.1
+Host: api.beispiel.com
+Authorization: Bearer {API-Schlüssel}
+Content-Type: application/json
+
+{
+  "name": "Aktualisierte Ressource",
+  "description": "Aktualisierte Beschreibung"
+}
+----
+
+==== Antwort
+
+[source,json]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+  "id": {id},
+  "name": "Aktualisierte Ressource",
+  "description": "Aktualisierte Beschreibung"
+}
+----
+
+=== DELETE /resource/{id}
+
+Löschen einer Ressource.
+
+==== Anfrage
+
+[source,http]
+----
+DELETE /resource/{id} HTTP/1.1
+Host: api.beispiel.com
+Authorization: Bearer {API-Schlüssel}
+----
+
+==== Antwort
+
+[source,json]
+----
+HTTP/1.1 204 No Content
+----
+
+== Beispielanfragen und -antworten
+
+Hier sind einige Beispielanfragen und deren Antworten zur Veranschaulichung der Nutzung der API.
+
+=== Beispiel GET Anfrage
+
+[source,http]
+----
+GET /resource HTTP/1.1
+Host: api.beispiel.com
+Authorization: Bearer {API-Schlüssel}
+----
+
+Antwort:
+
+[source,json]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+[
+  {
+    "id": 1,
+    "name": "Ressource 1",
+    "description": "Beschreibung der Ressource 1"
+  }
+]
+----
+
+=== Beispiel POST Anfrage
+
+[source,http]
+----
+POST /resource HTTP/1.1
+Host: api.beispiel.com
+Authorization: Bearer {API-Schlüssel}
+Content-Type: application/json
+
+{
+  "name": "Neue Ressource",
+  "description": "Beschreibung der neuen Ressource"
+}
+----
+
+Antwort:
+
+[source,json]
+----
+HTTP/1.1 201 Created
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "Neue Ressource",
+  "description": "Beschreibung der neuen Ressource"
+}
+----
+
+== Fehlercodes und -meldungen
+
+Eine Übersicht der möglichen Fehlercodes und deren Bedeutungen.
+
+* 400 Bad Request: Die Anfrage war fehlerhaft oder unvollständig.
+* 401 Unauthorized: Die Authentifizierung ist fehlgeschlagen.
+* 403 Forbidden: Zugriff verweigert.
+* 404 Not Found: Die angeforderte Ressource wurde nicht gefunden.
+* 500 Internal Server Error: Ein interner Serverfehler ist aufgetreten.
+
+== Versionshinweise und Änderungen
+
+Eine Übersicht der API-Versionen und Änderungen.
+
+=== Version 1.0
+
+* Einführung der grundlegenden Endpunkte: GET /resource, POST /resource, PUT /resource/{id}, DELETE /resource/{id}
+* Unterstützung für Header- und URL-Parameter-Authentifizierung
+
+=== Version 1.1
+
+* Hinzufügen von neuen Feldern zur Ressource
+* Verbesserte Fehlerbehandlung und Fehlermeldungen

@@ -1,0 +1,238 @@
+:app-name: MyApp
+:app-key: ABC1234
+:toc: left
+:toclevels: 3
+:source-highlighter: 
+
+= API Documentation
+
+== Introduction and Overview
+
+Welcome to the API documentation for {app-name}. 
+This documentation provides comprehensive instructions on how to use the {app-name} API.
+
+== Authentication
+
+To use the {app-name} API, you must authenticate yourself. 
+Use the following API key: {app-key}.
+
+=== Authentication Methods
+
+. Header-based Authentication
+  Add the API key to the header of your request:
+
+  [source,json]
+  ----
+  {
+    "Authorization": "Bearer {API Key}"
+  }
+  ----
+
+. URL Parameter Authentication
+  Alternatively, you can add the API key as a URL parameter:
+
+ https://api.example.com/resource?api_key={app-key}`
+
+== Endpoints and Methods
+
+=== GET /resource
+
+Retrieve a list of resources.
+
+==== Request
+
+[source,http]
+----
+GET /resource HTTP/1.1
+Host: api.example.com
+Authorization: Bearer {API Key}
+----
+
+==== Response
+
+[source,json]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+[
+  {
+    "id": 1,
+    "name": "Resource 1",
+    "description": "Description of Resource 1"
+  },
+  {
+    "id": 2,
+    "name": "Resource 2",
+    "description": "Description of Resource 2"
+  }
+]
+----
+
+=== POST /resource
+
+Create a new resource.
+
+==== Request
+
+[source,http]
+----
+POST /resource HTTP/1.1
+Host: api.example.com
+Authorization: Bearer {API Key}
+Content-Type: application/json
+
+{
+  "name": "New Resource",
+  "description": "Description of the new resource"
+}
+----
+
+==== Response
+
+[source,json]
+----
+HTTP/1.1 201 Created
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "New Resource",
+  "description": "Description of the new resource"
+}
+----
+
+=== PUT /resource/{id}
+
+Update an existing resource.
+
+==== Request
+
+[source,http]
+----
+PUT /resource/{id} HTTP/1.1
+Host: api.example.com
+Authorization: Bearer {API Key}
+Content-Type: application/json
+
+{
+  "name": "Updated Resource",
+  "description": "Updated description"
+}
+----
+
+==== Response
+
+[source,json]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+  "id": {id},
+  "name": "Updated Resource",
+  "description": "Updated description"
+}
+----
+
+=== DELETE /resource/{id}
+
+Delete a resource.
+
+==== Request
+
+[source,http]
+----
+DELETE /resource/{id} HTTP/1.1
+Host: api.example.com
+Authorization: Bearer {API Key}
+----
+
+==== Response
+
+[source,json]
+----
+HTTP/1.1 204 No Content
+----
+
+== Example Requests and Responses
+
+Here are some example requests and their responses to illustrate how to use the API.
+
+=== Example GET Request
+
+[source,http]
+----
+GET /resource HTTP/1.1
+Host: api.example.com
+Authorization: Bearer {API Key}
+----
+
+Response:
+
+[source,json]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+[
+  {
+    "id": 1,
+    "name": "Resource 1",
+    "description": "Description of Resource 1"
+  }
+]
+----
+
+=== Example POST Request
+
+[source,http]
+----
+POST /resource HTTP/1.1
+Host: api.example.com
+Authorization: Bearer {API Key}
+Content-Type: application/json
+
+{
+  "name": "New Resource",
+  "description": "Description of the new resource"
+}
+----
+
+Response:
+
+[source,json]
+----
+HTTP/1.1 201 Created
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "New Resource",
+  "description": "Description of the new resource"
+}
+----
+
+== Error Codes and Messages
+
+An overview of possible error codes and their meanings.
+
+* 400 Bad Request: The request was incorrect or incomplete.
+* 401 Unauthorized: Authentication failed.
+* 403 Forbidden: Access denied.
+* 404 Not Found: The requested resource was not found.
+* 500 Internal Server Error: An internal server error occurred.
+
+== Version Notes and Changes
+
+An overview of API versions and changes.
+
+=== Version 1.0
+
+* Introduction of basic endpoints: GET /resource, POST /resource, PUT /resource/{id}, DELETE /resource/{id}
+* Support for header and URL parameter authentication
+
+=== Version 1.1
+
+* Adding new fields to the resource
+* Improved error handling and messages
