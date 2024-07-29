@@ -1,0 +1,95 @@
+:app-name: SuperWerkzeug
+:app-url: https://wwww.adoc-studio.app
+:app-os: macOS
+:app-cpu: Intel & Apple Silicon (M1 und später)
+:app-ram: 10 GB
+:app-hdd: 10 MB
+:tbd: Beschreibung folgt noch…
+:toc: left
+:toclevels: 3
+:icons: font
+
+= Benutzerhandbuch für {app-name}
+
+
+== Einleitung und Überblick
+
+Willkommen beim Benutzerhandbuch für {app-name}. 
+Dieses Handbuch bietet eine umfassende Anleitung zur Verwendung von {app-name}.
+
+== Systemanforderungen
+
+* Betriebssystem: {app-os}
+* Prozessor: {app-cpu}
+* Arbeitsspeicher: {app-ram}
+* Festplattenspeicher: {app-hdd}
+* Zusätzliche Anforderungen: {Zusätzliche Anforderungen}
+
+== Installationsanweisungen
+
+Schritt-für-Schritt-Anleitung zur Installation von {app-name}:
+
+. Laden Sie die Installationsdatei von {app-url} herunter.
+. Doppelklicken Sie auf die geladene Datei, um den Installationsprozess zu starten.
+. Folgen Sie den Anweisungen auf dem Bildschirm.
+
+== Bedienungsanleitungen
+
+=== Grundlegende Funktionen
+
+Schritt-für-Schritt-Anleitung zur Nutzung der grundlegenden Funktionen von {app-name}:
+
+1. Öffnen Sie {app-name} durch Doppelklicken auf das Symbol.
+2. Melden Sie sich mit Ihren Anmeldeinformationen an.
+3. Wählen Sie die gewünschte Funktion aus dem Hauptmenü.
+
+=== Erweiterte Funktionen
+
+[CAUTION]
+Fügen Sie dem Text ein Wort der Warnung hinzu.
+
+Beschreibung und Nutzung der erweiterten Funktionen:
+
+==== Funktion A
+{tbd}
+
+==== Funktion B
+{tbd}
+
+==== Funktion C
+{tbd}
+
+== Fehlerbehebung
+
+Häufige Probleme und deren Lösungen:
+
+* Problem 1: Beschreibung des Problems
+  ** Lösung: {tbd}
+* Problem 2: Beschreibung des Problems
+  ** Lösung: {tbd}
+
+== Häufig gestellte Fragen (FAQ)
+
+* Frage 1: Die Frage
+  ** Antwort: Die Antwort
+* Frage 2: Die Frage
+  ** Antwort: Die Antwort
+
+[appendix]
+== Anhang
+
+{tbd}
+
+[appendix]
+== Glossar
+
+Begriff 1:: 
+{tbd}
+
+Begriff 2:: 
+{tbd}
+
+[appendix]
+== Anerkennungen
+
+* Tool XY

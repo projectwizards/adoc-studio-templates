@@ -1,0 +1,96 @@
+:app-name: SuperTool
+:app-url: https://wwww.adoc-studio.app
+:app-os: macOS
+:app-cpu: Intel & Apple Silicon (M1 and later)
+:app-ram: 10 GB
+:app-hdd: 10 MB
+:tbd: Description to follow...
+:toc: left
+:toclevels: 3
+:icons: font
+
+= User manual for {app-name}
+
+
+== Introduction and overview
+
+Welcome to the user manual for {app-name}. 
+This manual provides a comprehensive guide to using {app-name}.
+
+== System requirements
+
+* Operating system: {app-os}
+* Processor: {app-cpu}
+* Memory: {app-ram}
+* Hard disc space: {app-hdd}
+* Additional requirements: Add your additional requirements here.
+
+== Installation instructions
+
+Step-by-step instructions for installing {app-name}:
+
+. Download the installation file from {app-url}.
+. Double-click on the downloaded file to start the installation process.
+. Follow the instructions on the screen.
+
+== Operating instructions
+
+=== Basic functions
+
+Step-by-step instructions on how to use the basic functions of {app-name}:
+
+1. open {app-name} by double-clicking on the icon.
+2. log in with your login information.
+3. select the desired function from the main menu.
+
+=== Advanced functions
+
+[CAUTION]
+Add a word of caution to the text.
+
+Description and use of the advanced functions:
+
+==== Function A
+{tbd}
+
+==== Function B
+{tbd}
+
+==== Function C
+{tbd}
+
+== Troubleshooting
+
+Common problems and their solutions:
+
+* Problem 1: Description of the problem
+  ** Solution: {tbd}
+* Problem 2: Description of the problem
+  ** Solution: {tbd}
+
+== Frequently asked questions (FAQ)
+
+* Question 1: The question
+  ** Answer: The answer
+* Question 2: The question
+  ** Answer: The answer
+
+[appendix]
+== Appendix
+
+{tbd}
+
+[appendix]
+== Glossary
+
+Term 1:: 
+{tbd}
+
+Term 2:: 
+{tbd}
+
+
+[appendix]
+== Acknowledges 
+
+* Tool XY
